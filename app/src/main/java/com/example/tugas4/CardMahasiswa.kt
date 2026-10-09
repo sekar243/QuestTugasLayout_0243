@@ -71,7 +71,7 @@ fun CardMahasiswa(
                 )
             )
 
-            Spacer(modifier = Modifier.width(dimensionResource(R.dimen.card_content_padding)))
+            Spacer(modifier = Modifier.width(dimensionResource(R.dimen.small_spacing)))
 
             Column(
                 modifier = Modifier.weight(1f),
@@ -102,6 +102,12 @@ fun CardMahasiswa(
                 )
             }
             Spacer(modifier = Modifier.width(dimensionResource(R.dimen.small_spacing)))
+
+            Image(
+                painter = painterResource(R.drawable.logo_umy),
+                contentDescription = stringResource(R.string.logo_description),
+                modifier = Modifier.size(dimensionResource(R.dimen.logo_size))
+            )
         }
     }
 }
