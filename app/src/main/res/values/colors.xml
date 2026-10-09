@@ -12,4 +12,10 @@
     <color name="card_1_bg">#87CEFA</color>
     <color name="card_2_bg">#FF69B4</color>
     <color name="card_3_bg">#800080</color>
+
+    <color name="text_black">#FF000000</color>
+    <color name="text_white">#FFFFFF</color>
+    <color name="text_yellow">#FFFF00</color>
+    <color name="text_cyan">#00FFFF</color>
+    <color name="text_light_blue">#FF3700B3</color>
 </resources>
