@@ -4,4 +4,8 @@
     <string name="univ">Universitas Muhammadyah Yogyakarta</string>
     <string name="copy">Copyright, 2026</string>
     <string name="logo_description">Logo Universitas Muhammadyah Yogyakarta</string>
+
+    <string name="nama_Asahi">Hamada Asahi</string>
+    <string name="telepon_asahi">-</string>
+    <string name="alamat_asahi">Osaka, Jepang</string>
 </resources>
