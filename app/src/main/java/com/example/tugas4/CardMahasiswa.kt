@@ -101,6 +101,7 @@ fun CardMahasiswa(
                     color = colorResource(warnaAlamat)
                 )
             }
+            Spacer(modifier = Modifier.width(dimensionResource(R.dimen.small_spacing)))
         }
     }
 }
