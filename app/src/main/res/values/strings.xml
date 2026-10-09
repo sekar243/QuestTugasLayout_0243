@@ -8,4 +8,8 @@
     <string name="nama_Asahi">Hamada Asahi</string>
     <string name="telepon_asahi">-</string>
     <string name="alamat_asahi">Osaka, Jepang</string>
+    
+    <string name="nama_sekar">Sekar Kinasih</string>
+    <string name="telepon_sekar">08811223344</string>
+    <string name="alamat_sekar">Seoul, Jawa Tengah</string>
 </resources>
