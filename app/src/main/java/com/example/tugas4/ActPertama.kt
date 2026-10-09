@@ -1,5 +1,6 @@
 package com.example.tugas4
 
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
@@ -14,6 +15,7 @@ import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.res.dimensionResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
 @Composable
@@ -79,6 +81,17 @@ fun ActPertama(modifier: Modifier) {
             warnaNama = R.color.text_yellow,
             warnaDetail = R.color.text_white,
             warnaAlamat = R.color.text_black
+        )
+    }
+    Box(
+        modifier = Modifier
+            .fillMaxSize()
+    ) {
+        Text(
+            stringResource(id = R.string.copy),
+            modifier = Modifier
+                .align(Alignment.BottomCenter)
+                .padding(bottom = dimensionResource(R.dimen.copyright_padding_bottom))
         )
     }
 }
