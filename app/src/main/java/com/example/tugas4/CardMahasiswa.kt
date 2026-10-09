@@ -14,6 +14,7 @@ import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
+import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -23,6 +24,9 @@ import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.res.dimensionResource
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.font.FontFamily
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.unit.sp
 
 @Composable
 fun CardMahasiswa(
@@ -68,10 +72,35 @@ fun CardMahasiswa(
             )
 
             Spacer(modifier = Modifier.width(dimensionResource(R.dimen.card_content_padding)))
+
             Column(
                 modifier = Modifier.weight(1f),
                 verticalArrangement = Arrangement.Center
-            ) { }
+            ) {
+                Text(
+                    text = stringResource(nama),
+                    fontSize = dimensionResource(R.dimen.name_size).value.sp,
+                    fontWeight = FontWeight.Bold,
+                    fontFamily = if (namaCursive) {
+                        FontFamily.Cursive
+                    } else {
+                        FontFamily.Default
+                    },
+                    color = colorResource(warnaNama)
+                )
+                    if (telepon !=null) {
+                        Text(
+                            text = stringResource(telepon),
+                            fontSize = dimensionResource(R.dimen.detail_size).value.sp,
+                            color = colorResource(warnaDetail)
+                        )
+                    }
+                Text(
+                    text = stringResource(alamat),
+                    fontSize = dimensionResource(R.dimen.detail_size).value.sp,
+                    color = colorResource(warnaAlamat)
+                )
+            }
         }
     }
 }
