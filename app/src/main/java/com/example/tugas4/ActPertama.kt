@@ -1,7 +1,9 @@
 package com.example.tugas4
 
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -36,5 +38,6 @@ fun ActPertama(modifier: Modifier) {
             fontSize = dimensionResource(R.dimen.subtitle_size).value.sp,
             color = colorResource(R.color.text_black)
         )
+        Spacer(modifier = Modifier.height(dimensionResource(R.dimen.content_spacing)))
     }
 }
