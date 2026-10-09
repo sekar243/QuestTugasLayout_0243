@@ -48,7 +48,7 @@ fun ActPertama(modifier: Modifier) {
             telepon = null,
             alamat = R.string.alamat_asahi,
             warna = R.color.card_0_bg,
-            warnaNama = R.color.text_white,
+            warnaNama = R.color.text_cyan,
             warnaDetail = R.color.text_light_blue,
             namaCursive = true
         )
