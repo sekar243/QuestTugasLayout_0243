@@ -5,6 +5,7 @@ import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
+import androidx.compose.material3.Card
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
@@ -39,5 +40,15 @@ fun ActPertama(modifier: Modifier) {
             color = colorResource(R.color.text_black)
         )
         Spacer(modifier = Modifier.height(dimensionResource(R.dimen.content_spacing)))
+
+        CardMahasiswa(
+            nama = R.string.nama_Asahi,
+            telepon = null,
+            alamat = R.string.alamat_asahi,
+            warna = R.color.card_0_bg,
+            warnaNama = R.color.text_white,
+            warnaDetail = R.color.text_light_blue,
+            namaCursive = true
+        )
     }
 }
