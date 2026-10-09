@@ -12,4 +12,8 @@
     <string name="nama_sekar">Sekar Kinasih</string>
     <string name="telepon_sekar">08811223344</string>
     <string name="alamat_sekar">Seoul, Jawa Tengah</string>
+
+    <string name="nama_paji">Paji</string>
+    <string name="telepon_paji">08599886654</string>
+    <string name="alamat_paji">Busan, Korea</string>
 </resources>
