@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="screen_padding_top">100dp</dimen>
+    <dimen name="screen_padding_horizontal">12dp</dimen>
+
+    <dimen name="title_size">28sp</dimen>
+    <dimen name="subtitle_size">16sp</dimen>
+    <dimen name="name_size">20sp</dimen>
+    <dimen name="detail_size">14sp</dimen>
+
+    <dimen name="logo_size">72dp</dimen>
+    <dimen name="card_height">106dp</dimen>
+    <dimen name="card_radius">12dp</dimen>
+    <dimen name="card_spacing">12dp</dimen>
+
+    <dimen name="content_spacing">24dp</dimen>
+    <dimen name="small_spacing">4dp</dimen>
+    <dimen name="card_content_padding">12dp</dimen>
+    <dimen name="copyright_padding_bottom">8dp</dimen>
+</resources>
