@@ -31,7 +31,7 @@ import androidx.compose.ui.unit.sp
 @Composable
 fun CardMahasiswa(
     nama: Int,
-    telepon: Int,
+    telepon: Int?,
     alamat: Int,
     warna: Int,
     warnaNama: Int,
