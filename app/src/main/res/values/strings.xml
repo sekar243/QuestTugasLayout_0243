@@ -2,5 +2,6 @@
     <string name="app_name">Daftar Mahasiswa TI</string>
     <string name="prodi">Teknologi Informasi</string>
     <string name="univ">Universitas Muhammadyah Yogyakarta</string>
-
+    <string name="copy">Copyright, 2026</string>
+    <string name="logo_description">Logo Universitas Muhammadyah Yogyakarta</string>
 </resources>
