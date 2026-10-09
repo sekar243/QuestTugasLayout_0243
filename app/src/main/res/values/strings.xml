@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Daftar Mahasiswa TI</string>
+    <string name="prodi">Teknologi Informasi</string>
+    <string name="univ">Universitas Muhammadyah Yogyakarta</string>
+
 </resources>
