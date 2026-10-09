@@ -50,5 +50,15 @@ fun ActPertama(modifier: Modifier) {
             warnaDetail = R.color.text_light_blue,
             namaCursive = true
         )
+
+        CardMahasiswa(
+            nama = R.string.nama_sekar,
+            telepon = R.string.telepon_sekar,
+            alamat = R.string.alamat_sekar,
+            warna = R.color.card_1_bg,
+            warnaNama = R.color.text_white,
+            warnaDetail = R.color.text_cyan,
+            warnaAlamat = R.color.text_yellow
+        )
     }
 }
